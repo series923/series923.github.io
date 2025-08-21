@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-    <script type="text/plain" data-cookiecategory="analytics">
-  </script>
     <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-RWTERSN6RL"></script>
 <script>
@@ -18,91 +16,6 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 <meta name="description" content="Series923のホームページ.">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@3.0.0/dist/cookieconsent.css">
-<script src="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@3.0.0/dist/cookieconsent.umd.js"></script>
-    <script>
-    const cc = window.initCookieConsent();
-
-    cc.run({
-        current_lang: 'ja',
-        autoclear_cookies: true, // 同意しない場合にCookieをクリアする
-        page_scripts: true,      // 同意後にスクリプトをロードする
-
-        gui_options: {
-            consent_modal: {
-                layout: 'box',      // 'box' or 'cloud' or 'bar'
-                position: 'bottom right', // 'bottom' or 'middle' or 'top' + 'left' or 'right' or 'center'
-                transition: 'slide',    // 'zoom' or 'slide'
-                swap_buttons: false    // ボタンの順序を入れ替える
-            },
-            settings_modal: {
-                layout: 'box',      // 'box' or 'bar'
-                transition: 'slide'    // 'zoom' or 'slide'
-            }
-        },
-
-        languages: {
-            'ja': {
-                consent_modal: {
-                    title: 'Cookieの使用について',
-                    description: 'このサイトでは、サイトの改善と利便性向上のためにCookieを使用しています。詳細については、<a href="#privacy-policy">プライバシーポリシー</a>をご確認ください。',
-                    primary_btn: {
-                        text: '同意する',
-                        role: 'accept_all' // 全てのCookieに同意する
-                    },
-                    secondary_btn: {
-                        text: '設定を見る',
-                        role: 'settings'   // 設定モーダルを開く
-                    }
-                },
-                settings_modal: {
-                    title: 'Cookieの設定',
-                    save_settings_btn: '設定を保存',
-                    accept_all_btn: '全てに同意',
-                    reject_all_btn: '全て拒否',
-                    close_btn_label: '閉じる',
-                    cookie_table_headers: [
-                        { col1: '名前' },
-                        { col2: 'プロバイダ' },
-                        { col3: '有効期限' },
-                        { col4: '説明' },
-                        { col5: '種類' }
-                    ],
-                    // Cookieの種類ごとに設定
-                    blocks: [
-                        {
-                            title: 'サイトの機能に必須のCookie',
-                            description: 'これらのCookieは、サイトが正しく機能するために不可欠です。',
-                            toggle: {
-                                value: 'necessary',
-                                enabled: true, // デフォルトで有効
-                                readonly: true  // ユーザーは無効にできない
-                            }
-                        },
-                        {
-                            title: 'パフォーマンスと分析のCookie',
-                            description: 'これらのCookieは、サイトのパフォーマンスを向上させ、訪問者がどのようにサイトを利用しているかを分析するために役立ちます。',
-                            toggle: {
-                                value: 'analytics',
-                                enabled: false, // デフォルトで無効
-                                readonly: false // ユーザーが有効/無効を切り替えられる
-                            },
-                            cookie_table: [
-                                {
-                                    col1: '^_ga',
-                                    col2: 'Google Analytics',
-                                    col3: '2年',
-                                    col4: 'ウェブサイトの訪問者を追跡するために使用されます。',
-                                    is B: true
-                                }
-                            ]
-                        }
-                    ]
-                }
-            }
-        }
-    });
-</script>
 </head>
 <body>
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -190,6 +103,7 @@
 </body>
 
 </html>
+
 
 
 
