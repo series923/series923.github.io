@@ -1,0 +1,29 @@
+:root {
+    /* ライトモードの色（少し暗めのトーン） */
+    --primary-color: #343a40;
+    --secondary-color: #6c757d;
+    --background-color: #f8f9fa;
+    --text-color: #212529;
+    --nav-bg-color: #212529;
+    --nav-text-color: #fff;
+    --link-color: var(--primary-color);
+    --link-hover-color: #000;
+}
+
+/* ダークモード用のスタイル（より濃い黒のトーン） */
+.dark-mode {
+    --background-color: #212529;
+    --text-color: #f8f9fa;
+    --nav-bg-color: #000;
+    --nav-text-color: #fff;
+    --link-color: #adb5bd;
+    --link-hover-color: #fff;
+}
+.card {
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
