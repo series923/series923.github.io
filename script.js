@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // 1. 見出しのテキストを変更
     const myHeading = document.getElementById('my-heading');
     if (myHeading) {
-        myHeading.textContent = 'Series923のホームページへようこそ！！';
+        myHeading.textContent = 'Series923のホームページへようこそ！！/Welcome Series923's HP!!';
     }
 
     // 2. ダークモード切り替え機能
@@ -43,3 +43,4 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
 });
+
