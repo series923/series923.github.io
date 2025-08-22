@@ -1,5 +1,5 @@
 :root {
-    /* ライトモードの色（少し暗めのトーン） */
+    /* ライトモードの色 */
     --primary-color: #343a40;
     --secondary-color: #6c757d;
     --background-color: #f8f9fa;
@@ -10,15 +10,26 @@
     --link-hover-color: #000;
 }
 
-/* ダークモード用のスタイル（より濃い黒のトーン） */
+/* ダークモード用のスタイル */
 .dark-mode {
+    --primary-color: #adb5bd;
+    --secondary-color: #6c757d;
     --background-color: #212529;
     --text-color: #f8f9fa;
-    --nav-bg-color: #000;
+    --nav-bg-color: #000; /* より濃い黒に変更 */
     --nav-text-color: #fff;
     --link-color: #adb5bd;
     --link-hover-color: #fff;
 }
+
+body {
+    /* テーマに関わらず適用されるスタイル */
+    background-color: var(--background-color);
+    color: var(--text-color);
+    padding-top: 56px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
 .card {
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
@@ -26,8 +37,10 @@
 .card:hover {
     transform: translateY(-5px);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-
 }
-body {
-    padding-top: 56px; /* ナビゲーションバーの高さに合わせて調整 */
+
+/* その他の要素へのテーマカラー適用 */
+.btn-secondary {
+    background-color: var(--secondary-color);
+    color: var(--text-color);
 }
