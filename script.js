@@ -1,12 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
     // ページが完全に読み込まれた後に実行されるすべてのコードをここに記述します。
-
-    // 1. 見出しのテキストを変更
-    const myHeading = document.getElementById('my-heading');
-    if (myHeading) {
-        myHeading.textContent = 'Series923のホームページへようこそ！！/Welcome Series923's HP!!';
-    }
-
     // 2. ダークモード切り替え機能
     const themeToggleButton = document.getElementById('theme-toggle');
     if (themeToggleButton) {
@@ -43,4 +36,5 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
 });
+
 
