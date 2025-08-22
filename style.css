@@ -44,3 +44,11 @@ body {
     background-color: var(--secondary-color);
     color: var(--text-color);
 }
+/* Font Awesomeのフォントを読み込む際の設定 */
+@font-face {
+  font-family: 'Font Awesome 6 Free';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap; /* これがレイアウトシフトを防ぎます */
+  src: url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/webfonts/fa-solid-900.woff2') format('woff2');
+}
