@@ -1,10 +1,10 @@
 # Welcome to My GitHub Profile! 👋
 
 ## 🚀 About Me
-- 💻 Full Stack Developer
-- 🌱 Learning React and Html / JavaScript / Node.js
+- 💻 Developer
+- 🌱 Learning Html / JavaScript / Node.js
 - 👯 Looking to collaborate on web projects
-- 📫 How to reach me: series923@gmail.com
+- 📫 How to reach me: Discord→series923.tokaido
 
 ## 🛠️ Tech Stack
 ### 言語系
